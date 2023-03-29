@@ -7,6 +7,7 @@ local object = game.Workspace:WaitForChild("ObjectName")
 local policeTeam = game.Teams:FindFirstChild("PoliceTeam")
 
 object.Touched:Connect(function(hit)
+-- Source By MITUMA X HUB
 
     local player = game.Players:GetPlayerFromCharacter(hit.Parent)
 
